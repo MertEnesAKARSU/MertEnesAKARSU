@@ -3,8 +3,9 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Mert Enes AKARSU
 ========================================================================================================================================
 
-Frontend Developer and Desinger
+Frontend Developer and Desinger <p><img src="https://res.cloudinary.com/dcybeprh9/image/upload/v1715393054/gif_lczzkj.gif" width="30" ></img></p>
 -------------------------------
+
 
 * 🌍  I'm based in Antalya
 * 🖥️  See my portfolio at [My website](http://mertenesakarsume)
