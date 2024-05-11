@@ -1,4 +1,4 @@
-![MasterHead](https://r.resimlink.com/Vzyu5.png)
+[![MasterHead](https://resimlink.com/Vzyu5)
 <h1 align="center">Hi 👋, I'm Mert Enes AKARSU</h1>
 <h3 align="center">A passionate frontend developer from Türkiye</h3>
 
