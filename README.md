@@ -36,9 +36,9 @@ Frontend Developer and Desinger
 
 
 <pre>
-    💼 BSC @ UFMG • Back-end dev • Platform Engineer
-    💻 System programming languages • DevOps 
+    💼 Back-end dev • Platform Engineer
+    💻 System programming languages • JS 
     📖 Software architecture • Distributed systems
-    🎮 Music • Games • Anime • Code • Art
-    🐾 Muffin 🐰 • Cake & Cookie & Pudim & Quindim 🐤🐥
+    🎮 Music • Games • Code • Art
+  
 </pre>
