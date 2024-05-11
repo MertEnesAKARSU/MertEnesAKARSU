@@ -36,9 +36,8 @@ Frontend Developer and Desinger
 
 
 <pre>
-    💼 Back-end dev • Platform Engineer
+    <p><img src="https://res.cloudinary.com/dcybeprh9/image/upload/v1715393054/gif_lczzkj.gif" width="30" ></img></p>
     💻 System programming languages • JS 
-    📖 Software architecture • Distributed systems
-    🎮 Music • Games • Code • Art
+    
   
 </pre>
