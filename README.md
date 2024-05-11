@@ -1,4 +1,4 @@
-<p align="center"><img src="https://res.cloudinary.com/dcybeprh9/image/upload/v1715392774/logomain_smedhb.png" width="150" height="150"></img></p>
+<p align="center"><img src="https://res.cloudinary.com/dcybeprh9/image/upload/v1715395116/logo_ypogsp.png" width="250" height="auto"></img></p>
 
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Mert Enes AKARSU
 ========================================================================================================================================
