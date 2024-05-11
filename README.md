@@ -36,8 +36,8 @@ Frontend Developer and Desinger
 
 
 <pre>
-    <p><img src="https://res.cloudinary.com/dcybeprh9/image/upload/v1715393054/gif_lczzkj.gif" width="30" ></img></p>
-    💻 System programming languages • JS 
+    <p aligin="Center"><img src="https://res.cloudinary.com/dcybeprh9/image/upload/v1715393054/gif_lczzkj.gif" width="30" ></img> </p>Mert Enes AKARSU
+   
     
   
 </pre>
