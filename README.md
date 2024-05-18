@@ -35,9 +35,5 @@ Frontend Developer and Desinger
 
 
 
-<pre>
-    <p aligin="Center"><img src="https://res.cloudinary.com/dcybeprh9/image/upload/v1715393054/gif_lczzkj.gif" width="30" ></img> </p>Mert Enes AKARSU
-   
-    
-  
-</pre>
+
+[![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=⚡️MertEnes%20&width=800&height=400)](https://github.com/Akshay090/svg-banners)
