@@ -8,9 +8,9 @@ Frontend Developer and Desinger
 
 
 * 🌍  I'm based in Antalya
-* 🖥️  See my portfolio at [My website](http://mertenesakarsume)
+* 🖥️  See my portfolio at [My website]
 * ✉️  You can contact me at [mertenesakarsu@hotmail.com](mailto:mertenesakarsu@gmail.com)
-* 🧠  I'm learning REACT , JS
+* 🧠  I'm learning React , JS, Swift,Python
 
 ### Skills
 
