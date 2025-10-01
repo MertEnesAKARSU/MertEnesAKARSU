@@ -6,11 +6,8 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Frontend Developer and Desinger 
 -------------------------------
 
-
-* 🌍  I'm based in Antalya
 * 🖥️  See my portfolio at [My website]
-* ✉️  You can contact me at [mertenesakarsu@hotmail.com](mailto:mertenesakarsu@gmail.com)
-* 🧠  I'm learning React , JS, Swift,Python
+* 🧠  I'm learning React , JS, Swift,Python,Node.js
 
 ### Skills
 
