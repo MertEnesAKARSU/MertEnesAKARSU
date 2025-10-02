@@ -1,4 +1,4 @@
-<p align="center"><img src="https://res.cloudinary.com/dcybeprh9/image/upload/v1715395116/logo_ypogsp.png" width="200" height="auto"></img></p>
+<p align="center"><a href="https://github.com/mertenesakarsu"><img src="https://res.cloudinary.com/dcybeprh9/image/upload/v1715395116/logo_ypogsp.png" width="200" height="auto"></img></a></p>
 
 
 <p align="center">
@@ -7,6 +7,4 @@
 
   
 <p align="center">
-The projects in this account are private. The README.md files are added to showcase my projects.</br>Click the image below to visit my public projects.</br><a href="https://github.com/mertenesakarsu-ai"><img width="100" height="auto" alt="Image" src="https://github.com/user-attachments/assets/fddc5f57-e138-4b0f-b78f-c695b20ce6d6" /></a></p>
-
-
+The projects in this account are private. The README.md files are added to showcase my projects.</br>Click the image below to visit my public projects.</br><a href="https://github.com/mertenesakarsu-ai"><img width="100" height="auto" alt="Image" src="https://github.com/user-attachments/assets/fddc5f57-e138-4b0f-b78f-c695b20ce6d6" /></a></br><a href="https://github.com/mertenesakarsu-ai"><img width="20" height="20" src="https://github.com/user-attachments/assets/a0679bf3-64e2-4934-a67a-640c93f2693c"/></a><a href="https://github.com/mertenesakarsu-ai"><img width="20" height="20" src="https://github.com/user-attachments/assets/a0679bf3-64e2-4934-a67a-640c93f2693c"/></a><a href="https://github.com/mertenesakarsu-ai"><img width="20" height="20" src="https://github.com/user-attachments/assets/a0679bf3-64e2-4934-a67a-640c93f2693c"/></a></p>
