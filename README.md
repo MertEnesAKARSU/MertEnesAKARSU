@@ -1,4 +1,4 @@
-<p align="center"><img src="https://res.cloudinary.com/dcybeprh9/image/upload/v1715395116/logo_ypogsp.png" width="200" height="auto"></img><img width="400" height="auto" alt="Image" src="https://github.com/user-attachments/assets/3342b4ea-d0ba-4917-ab5b-cb5296d9faa1" /></p>
+<p align="center"><img src="https://res.cloudinary.com/dcybeprh9/image/upload/v1715395116/logo_ypogsp.png" width="200" height="auto"></img></p>
 
 
 <p align="center">
