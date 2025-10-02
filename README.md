@@ -3,5 +3,10 @@
 
 <p align="center">
 <b>ʟᴀɴɢᴜᴀɢᴇꜱ:</b>   &nbsp;   <a href="https://www.swift.org"><img width="20" height="20" alt="Image" src="https://github.com/user-attachments/assets/eafc9288-21b9-4053-be5b-5e355c7a9067" /></a> <b>ˢʷᶦᶠᵗ</b>,&nbsp; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="20" height="20" alt="JavaScript" /></a><b> ᴶᵃᵛᵃˢᶜʳᶦᵖᵗ</b>,&nbsp;<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="20" height="20" alt="Python" /></a>  <b>ᵖʸᵗʰᵒⁿ</b>, &nbsp;<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="20" height="20" alt="HTML5" /></a> <b>ᴴᵀᴹᴸ</b>,&nbsp; <a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="20" height="20" alt="CSS3" /></a> <b>ᶜˢˢ</b>,&nbsp; <img width="20" height="20" alt="Image" src="https://github.com/user-attachments/assets/71f5aac6-73ad-4763-af2e-b57d740c1a80" />  <b>ᶜ</b>
-</br><b>ᴛᴏᴏʟꜱ:</b>&nbsp; SwiftUI, UIKit, Node.js, Express, FastAPI, REST API, MongoDB, Git, Lottie, WinForms/WPF <img width="20" height="20" src="https://github.com/user-attachments/assets/adadd61b-a250-41e9-94e1-afa03a987a58"/> </p> 
+</br><b>ᴛᴏᴏʟꜱ:</b>&nbsp; SwiftUI, UIKit, Node.js, Express, FastAPI, REST API, MongoDB, Git, Lottie, WinForms/WPF <img width="20" height="20" src="https://github.com/user-attachments/assets/adadd61b-a250-41e9-94e1-afa03a987a58"/> </p> </br>
+
+  
+<p align="center">
+The projects in this account are private. The README.md files are added to showcase my projects.</br>Click the image below to visit my public projects.</br><a href="https://github.com/mertenesakarsu-ai"><img width="100" height="auto" alt="Image" src="https://github.com/user-attachments/assets/fddc5f57-e138-4b0f-b78f-c695b20ce6d6" /></a></p>
+
 
