@@ -1,5 +1,3 @@
-<p align="center"><a href="https://github.com/MertEnesAKARSU"><img src="https://raw.githubusercontent.com/MertEnesAKARSU/MertEnesAKARSU/main/src/mainlogo.png" width="200" height="auto"></img></a></p>
-
 <p align="center">
   <img src="src/readme.svg" width="100%" alt="About Me" />
 </p>
