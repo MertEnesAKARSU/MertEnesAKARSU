@@ -139,6 +139,8 @@
           filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.4));
           box-sizing: border-box;
           animation: autoHoverIcon 12s infinite;
+          position: relative;
+          z-index: 1;
         }
 
         .social-text {
@@ -172,6 +174,7 @@
             -webkit-backdrop-filter: none;
             border: 1px solid transparent;
             padding: 0.5rem;
+            z-index: 1;
           }
           5%, 20% {
             transform: translateY(-5px);
@@ -181,6 +184,7 @@
             -webkit-backdrop-filter: blur(5px);
             border: 1px solid rgba(255, 255, 255, 0.2);
             padding: 0.5rem 1.2rem 0.5rem 0.8rem;
+            z-index: 10;
           }
         }
 
@@ -208,6 +212,7 @@
           border: 1px solid rgba(255, 255, 255, 0.2);
           padding: 0.5rem 1.2rem 0.5rem 0.8rem;
           animation: none;
+          z-index: 10;
         }
 
         .social-icon:hover .social-text {
