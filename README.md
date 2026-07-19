@@ -1,5 +1,9 @@
 <p align="center"><a href="https://github.com/MertEnesAKARSU"><img src="https://raw.githubusercontent.com/MertEnesAKARSU/MertEnesAKARSU/main/src/mainlogo.png" width="200" height="auto"></img></a></p>
 
+<p align="center">
+  <img src="src/readme.svg" width="100%" alt="About Me" />
+</p>
+
 
 <p align="center">
 <b>ʟᴀɴɢᴜᴀɢᴇꜱ:</b>   &nbsp;   <a href="https://www.swift.org"><img width="20" height="20" alt="Image" src="https://raw.githubusercontent.com/MertEnesAKARSU/MertEnesAKARSU/main/src/swift-colored.svg" /></a> <b>ˢʷᶦᶠᵗ</b>,&nbsp; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/MertEnesAKARSU/MertEnesAKARSU/main/src/javascript-colored.svg" width="20" height="20" alt="JavaScript" /></a><b> ᴶᵃᵛᵃˢᶜʳᶦᵖᵗ</b>,&nbsp;<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/MertEnesAKARSU/MertEnesAKARSU/main/src/python-colored.svg" width="20" height="20" alt="Python" /></a>  <b>ᵖʸᵗʰᵒⁿ</b>, &nbsp;<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/MertEnesAKARSU/MertEnesAKARSU/main/src/html5-colored.svg" width="20" height="20" alt="HTML5" /></a> <b>ᴴᵀᴹᴸ</b>,&nbsp; <a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/MertEnesAKARSU/MertEnesAKARSU/main/src/css3-colored.svg" width="20" height="20" alt="CSS3" /></a> <b>ᶜˢˢ</b>,&nbsp; <a href"https://www.w3schools.com/cs/index.php"><img width="20" height="20" alt="Image" src="https://raw.githubusercontent.com/MertEnesAKARSU/MertEnesAKARSU/main/src/csharp-colored.svg" />  <b>ᶜ</b></a>
