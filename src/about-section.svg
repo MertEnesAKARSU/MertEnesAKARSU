@@ -1,0 +1,399 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" width="100%" height="100%">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; display: flex; flex-direction: column; background: #000; overflow: hidden; position: relative; font-family: 'Outfit', sans-serif;">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&amp;display=swap');
+
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+
+        .about-container {
+          padding-top: 80px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: relative;
+          z-index: 20;
+          width: 100%;
+        }
+
+        .about-title {
+          font-family: 'Outfit', sans-serif;
+          font-size: 4rem;
+          color: #fff;
+          text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+          margin-bottom: 4rem;
+          font-weight: 600;
+        }
+
+        .orbit-circle-container {
+          position: relative;
+          width: 100%;
+          max-width: 1450px;
+          height: 1000px;
+          margin: 0 auto;
+        }
+
+        .orbit-center-logo {
+          position: absolute;
+          top: 40%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 10;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .orbit-card {
+          position: absolute;
+          width: 350px;
+          transform: translate(-50%, -50%);
+          z-index: 5;
+        }
+
+        .pos-1 { top: 15%; left: 14%; }
+        .pos-2 { top: 15%; left: 86%; }
+        .pos-3 { top: 53%; left: 90%; }
+        .pos-6 { top: 53%; left: 10%; }
+
+        .orbit-card-label {
+          font-family: 'Outfit', sans-serif;
+          font-size: 1.6rem;
+          font-weight: 600;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          margin-bottom: 0.5rem;
+          text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+          padding-left: 0.25rem;
+        }
+
+        .orbit-card-stack {
+          display: flex;
+          flex-direction: column;
+          gap: 0.4rem;
+        }
+
+        .bento-card {
+          background: rgba(255, 255, 255, 0.05);
+          border: 2px solid rgba(255, 255, 255, 0.2);
+          border-radius: 6px;
+          padding: 1rem 1.2rem;
+          overflow: hidden;
+          backdrop-filter: blur(16px);
+          -webkit-backdrop-filter: blur(16px);
+          transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+
+        .bento-card:hover {
+          transform: translateY(-5px);
+          border-color: rgba(255, 255, 255, 0.9);
+          box-shadow: 0 0 15px rgba(255, 255, 255, 0.3), inset 0 0 15px rgba(255, 255, 255, 0.1);
+        }
+
+        .bento-card-body {
+          font-family: 'Outfit', sans-serif;
+          font-size: 1.1rem;
+          color: #aaa;
+          line-height: 1.6;
+          font-weight: 300;
+        }
+
+        .bento-icon {
+          color: #fff;
+          opacity: 0.8;
+          margin-right: 8px;
+          margin-bottom: 2px;
+        }
+
+        .social-links-container {
+          display: flex;
+          gap: 2.5rem;
+          margin-top: 2rem;
+          z-index: 20;
+        }
+
+        .social-icon {
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          background: transparent;
+          border-radius: 4px;
+          padding: 0.5rem;
+          border: 1px solid transparent;
+          outline: none;
+          transition: all 0.5s ease-in-out;
+          filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.4));
+          box-sizing: border-box;
+          animation: autoHoverIcon 12s infinite;
+        }
+
+        .social-text {
+          display: inline-block;
+          color: #fff;
+          font-family: 'Outfit', sans-serif;
+          font-size: 1rem;
+          font-weight: 400;
+          white-space: nowrap;
+          max-width: 0;
+          opacity: 0;
+          overflow: hidden;
+          margin-left: 0;
+          transform: translateX(5px);
+          transition: all 0.5s ease-in-out;
+          animation: autoHoverText 12s infinite;
+        }
+
+        /* Stagger the animations so they expand one after another */
+        .social-icon:nth-child(1), .social-icon:nth-child(1) .social-text { animation-delay: 0s; }
+        .social-icon:nth-child(2), .social-icon:nth-child(2) .social-text { animation-delay: 3s; }
+        .social-icon:nth-child(3), .social-icon:nth-child(3) .social-text { animation-delay: 6s; }
+        .social-icon:nth-child(4), .social-icon:nth-child(4) .social-text { animation-delay: 9s; }
+
+        @keyframes autoHoverIcon {
+          0%, 25%, 100% {
+            transform: translateY(0);
+            filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.4));
+            background: transparent;
+            backdrop-filter: none;
+            -webkit-backdrop-filter: none;
+            border: 1px solid transparent;
+            padding: 0.5rem;
+          }
+          5%, 20% {
+            transform: translateY(-5px);
+            filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.9));
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1.2rem 0.5rem 0.8rem;
+          }
+        }
+
+        @keyframes autoHoverText {
+          0%, 25%, 100% {
+            max-width: 0;
+            opacity: 0;
+            margin-left: 0;
+            transform: translateX(5px);
+          }
+          5%, 20% {
+            max-width: 170px;
+            opacity: 1;
+            margin-left: 0.8rem;
+            transform: translateX(0);
+          }
+        }
+
+        .social-icon:hover {
+          transform: translateY(-5px);
+          filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.9));
+          background: rgba(255, 255, 255, 0.1);
+          backdrop-filter: blur(5px);
+          -webkit-backdrop-filter: blur(5px);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          padding: 0.5rem 1.2rem 0.5rem 0.8rem;
+          animation: none;
+        }
+
+        .social-icon:hover .social-text {
+          max-width: 170px;
+          opacity: 1;
+          margin-left: 0.8rem;
+          transform: translateX(0);
+          animation: none;
+        }
+
+        .fit-to-line {
+          white-space: nowrap !important;
+          font-size: 0.85rem !important;
+          letter-spacing: -0.5px;
+        }
+        
+        .fit-to-line strong {
+          font-size: 0.85rem !important;
+        }
+
+        /* Animations */
+        @keyframes pulse {
+          0%, 100% { opacity: 1; transform: scale(1); }
+          50% { opacity: 0.5; transform: scale(1.1); }
+        }
+
+        @keyframes fadeDown {
+          from { opacity: 0; transform: translateY(-30px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes bentoAppear {
+          from { opacity: 0; transform: translateY(40px) scale(0.95); }
+          to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
+        .animate-pulse {
+          animation: pulse 3s infinite;
+        }
+
+        .animate-fade-down {
+          animation: fadeDown 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+          opacity: 0;
+        }
+
+        .animate-bento {
+          animation: bentoAppear 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+          opacity: 0;
+        }
+        
+        .logo-img {
+          width: 100%;
+          max-width: 420px;
+          height: auto;
+          object-fit: contain;
+          opacity: 1;
+          transform: scale(1.2);
+          filter: drop-shadow(0 0 30px rgba(255,255,255,0.5));
+          transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), filter 0.4s ease;
+        }
+        .logo-img:hover {
+          transform: scale(1.25) rotate(3deg);
+          filter: drop-shadow(0 0 60px rgba(255,255,255,0.9));
+        }
+
+        /* Glassmorphism fixes for SVG context */
+        .glass {
+          background: rgba(255, 255, 255, 0.05);
+          backdrop-filter: blur(16px);
+          -webkit-backdrop-filter: blur(16px);
+        }
+      </style>
+
+      <div class="about-container">
+        <h2 class="about-title animate-fade-down" style="animation-delay: 0.1s;">About Me</h2>
+        
+        <div class="orbit-circle-container">
+          
+          <!-- CENTER LOGO -->
+          <div class="orbit-center-logo">
+            <div style="position: absolute; width: 550px; height: 550px; background: rgba(255,255,255,0.1); filter: blur(70px); border-radius: 50%;" class="animate-pulse"></div>
+            <div class="animate-bento" style="z-index: 10; animation-delay: 1.0s;">
+              <img src="https://mertenesakarsu.com/fav.png" alt="MEA Logo" class="logo-img" />
+            </div>
+
+            <!-- SOCIAL LINKS -->
+            <div class="social-links-container animate-bento" style="animation-delay: 1.2s;">
+              <a href="https://instagram.com/mertenesakarsu" target="_blank" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                <span class="social-text">@mertenesakarsu</span>
+              </a>
+              <a href="https://youtube.com/@MertEnesAKARSU" target="_blank" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
+                <span class="social-text">@MertEnesAKARSU</span>
+              </a>
+              <a href="https://linkedin.com/in/mertenesakarsu" target="_blank" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                <span class="social-text">/in/mertenesakarsu</span>
+              </a>
+              <a href="https://github.com/MertEnesAKARSU" target="_blank" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                <span class="social-text">/MertEnesAKARSU</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- CARD 1: Top Left -->
+          <div class="orbit-card pos-1">
+            <h3 class="orbit-card-label animate-fade-down" style="animation-delay: 0.2s;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="bento-icon"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> Who am I?
+            </h3>
+            <div class="orbit-card-stack">
+              <div class="bento-card animate-bento" style="animation-delay: 0.3s;">
+                <p class="bento-card-body" style="line-height: 1.8; margin: 0;">
+                  A passionate <strong style="color: #fff;">Full-Stack Software Developer</strong> &amp; <strong style="color: #fff;">IT Consultant</strong>. I specialize in building robust B2B SaaS platforms, integrating cutting-edge Generative AI APIs, and engineering seamless digital experiences. With a strong foundation in both technical infrastructure and creative problem-solving, I thrive on turning complex challenges into scalable, elegant solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2: Left - Education -->
+          <div class="orbit-card pos-6">
+            <h3 class="orbit-card-label animate-fade-down" style="animation-delay: 0.4s;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="bento-icon"><path d="M21.42 10.922a2 2 0 0 1-.019 3.838L12.83 19.22a2 2 0 0 1-1.66 0L2.6 14.76a2 2 0 0 1-.02-3.84L11.16 6.3a2 2 0 0 1 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg> Education
+            </h3>
+            <div class="orbit-card-stack">
+              <div class="bento-card animate-bento" style="animation-delay: 0.5s;">
+                <p class="bento-card-body fit-to-line" style="margin: 0; line-height: 1.8;">
+                  <strong style="color: #fff;">Bachelor's in Management Information Systems (MIS)</strong><br />Anadolu University (2026)
+                </p>
+              </div>
+              <div class="bento-card animate-bento" style="animation-delay: 0.55s;">
+                <p class="bento-card-body fit-to-line" style="margin: 0; line-height: 1.8;">
+                  <strong style="color: #fff;">Associate's in Computer Programming</strong><br />Dicle University (2021)
+                </p>
+              </div>
+              <div class="bento-card animate-bento" style="animation-delay: 0.6s;">
+                <p class="bento-card-body fit-to-line" style="margin: 0; line-height: 1.8;">
+                  <strong style="color: #fff;">High School Diploma in IT &amp; Web Development</strong><br />İbn-i Sina Anatolian Technical High School (2017)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3: Top Right - Experience -->
+          <div class="orbit-card pos-2">
+            <h3 class="orbit-card-label animate-fade-down" style="animation-delay: 0.6s;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="bento-icon"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg> Experience
+            </h3>
+            <div class="orbit-card-stack">
+              <div class="bento-card animate-bento" style="animation-delay: 0.7s;">
+                <h4 style="color: #fff; font-family: 'Outfit', sans-serif; font-size: 1.1rem; margin: 0 0 0.3rem 0; font-weight: 600;">Diogenes Travel</h4>
+                <p style="color: #888; font-size: 0.85rem; font-family: 'Outfit', sans-serif; margin: 0 0 0.5rem 0;">Oct 2025 - May 2026</p>
+                <p class="bento-card-body" style="margin: 0; font-size: 0.95rem; line-height: 1.8;">
+                  IT Consultant &amp; Full-Stack Developer. Built B2B SaaS platforms, managed agency IT infrastructure, and developed automated server backups.
+                </p>
+              </div>
+              <div class="bento-card animate-bento" style="animation-delay: 0.75s;">
+                <h4 style="color: #fff; font-family: 'Outfit', sans-serif; font-size: 1.1rem; margin: 0 0 0.3rem 0; font-weight: 600;">Tur-as Bilgisayar</h4>
+                <p style="color: #888; font-size: 0.85rem; font-family: 'Outfit', sans-serif; margin: 0 0 0.5rem 0;">Sep 2018 - Jan 2021</p>
+                <p class="bento-card-body" style="margin: 0; font-size: 0.95rem; line-height: 1.8;">
+                  IT Field Support Specialist. Handled on-site crisis management, network deployment, and motherboard-level hardware repairs.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 6: Mid Right - Certifications -->
+          <div class="orbit-card pos-3">
+            <h3 class="orbit-card-label animate-fade-down" style="animation-delay: 0.8s;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="bento-icon"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg> Certifications
+            </h3>
+            <div class="orbit-card-stack">
+              <div class="bento-card animate-bento" style="animation-delay: 0.9s;">
+                <span style="font-size: 0.95rem; line-height: 1.4; color: #ccc; font-family: 'Outfit', sans-serif; display: block;">AI4FUTURE Fundamentals (IBM)</span>
+              </div>
+              <div class="bento-card animate-bento" style="animation-delay: 0.95s;">
+                <span style="font-size: 0.95rem; line-height: 1.4; color: #ccc; font-family: 'Outfit', sans-serif; display: block;">Google Fundamentals of Digital Marketing</span>
+              </div>
+              <div class="bento-card animate-bento" style="animation-delay: 1.0s;">
+                <span style="font-size: 0.95rem; line-height: 1.4; color: #ccc; font-family: 'Outfit', sans-serif; display: block;">Python OOP Development (MEB)</span>
+              </div>
+              <div class="bento-card animate-bento" style="animation-delay: 1.05s;">
+                <span style="font-size: 0.95rem; line-height: 1.4; color: #ccc; font-family: 'Outfit', sans-serif; display: block;">Web Programming (MEB)</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
