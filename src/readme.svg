@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" width="100%" height="100%">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; display: flex; flex-direction: column; background: transparent; overflow: hidden; position: relative; font-family: 'Outfit', sans-serif;">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; display: flex; flex-direction: column; background: transparent; overflow: visible; position: relative; font-family: 'Outfit', sans-serif;">
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&amp;display=swap');
 
@@ -124,6 +124,8 @@
           top: 80%;
           left: 0;
           z-index: 20;
+          overflow: visible !important;
+          isolation: isolate;
         }
 
         .social-icon {
@@ -141,6 +143,7 @@
           animation: autoHoverIcon 12s infinite;
           position: relative;
           z-index: 1;
+          overflow: visible !important;
         }
 
         .social-text {
@@ -184,7 +187,7 @@
             -webkit-backdrop-filter: blur(5px);
             border: 1px solid rgba(255, 255, 255, 0.2);
             padding: 0.5rem 1.2rem 0.5rem 0.8rem;
-            z-index: 10;
+            z-index: 50;
           }
         }
 
@@ -212,7 +215,7 @@
           border: 1px solid rgba(255, 255, 255, 0.2);
           padding: 0.5rem 1.2rem 0.5rem 0.8rem;
           animation: none;
-          z-index: 10;
+          z-index: 50;
         }
 
         .social-icon:hover .social-text {
