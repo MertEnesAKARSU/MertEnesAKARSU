@@ -125,7 +125,6 @@
           left: 0;
           z-index: 20;
           overflow: visible !important;
-          isolation: isolate;
         }
 
         .social-icon {
@@ -187,7 +186,7 @@
             -webkit-backdrop-filter: blur(5px);
             border: 1px solid rgba(255, 255, 255, 0.2);
             padding: 0.5rem 1.2rem 0.5rem 0.8rem;
-            z-index: 50;
+            z-index: 100;
           }
         }
 
@@ -215,7 +214,7 @@
           border: 1px solid rgba(255, 255, 255, 0.2);
           padding: 0.5rem 1.2rem 0.5rem 0.8rem;
           animation: none;
-          z-index: 50;
+          z-index: 100;
         }
 
         .social-icon:hover .social-text {
