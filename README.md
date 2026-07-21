@@ -1,10 +1,18 @@
 <p align="center">
-  <img src="src/readme.svg" width="100%" alt="About Me" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="src/readme.svg">
+    <source media="(prefers-color-scheme: light)" srcset="src/readme-light.svg">
+    <img alt="Mert Enes Akarsu Profil" src="src/readme.svg" width="100%">
+  </picture>
 </p>
 
 
 <p align="center">
-  <img src="src/readme-skill.svg" width="100%" alt="Languages and Tools" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="src/readme-skill.svg">
+    <source media="(prefers-color-scheme: light)" srcset="src/readme-skill-light.svg">
+    <img alt="Languages and Tools" src="src/readme-skill.svg" width="100%">
+  </picture>
 </p>
   
 <p align="center"><img width="20" height="20" src="https://raw.githubusercontent.com/MertEnesAKARSU/MertEnesAKARSU/main/src/MEA.gif"/>&nbsp;
